@@ -115,7 +115,26 @@ section {
         font-size: 32px;
         font-weight: bold;
         text-transform: uppercase;
+        padding-bottom: 16px;
+
+        &::after {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: #34b7a7;
+            left: calc(50% - 25px);
+          }
     }
+
+}
+
+// HOME 
+#home {
+    background-image: url('../img/slider1.jpg');
+    background-size: cover;
+    min-height: 100vh;
 }
 
 //ABOUT
@@ -167,6 +186,19 @@ section {
     }
 }
 
+
+// SERVICES 
+.card-holder {
+    padding-bottom: 24px;
+}
+
+.card {
+    padding: 70px 20px 70px 20px;
+
+    &-header, &-body {
+        text-align: center;
+    }
+}
 //CONTACT
 
 .contact {
