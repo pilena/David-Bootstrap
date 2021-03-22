@@ -361,6 +361,10 @@ section {
     border-radius: 50px;
 }
 
+.btn-primary:hover {
+    background-color: #3dc8b7!important;
+}
+
 #footer {
     background: #e9e8e6;
     padding: 30px 0;
